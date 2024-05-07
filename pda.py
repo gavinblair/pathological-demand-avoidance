@@ -2,7 +2,6 @@ import streamlit as st
 import time
 from groq import Groq
 import dotenv
-import ollama
 import re
 import os
 
@@ -19,7 +18,6 @@ st.markdown(
 )
 
 def llm(prompt, model="groq"):
-    print(model)
     if model == "groq":
         client = Groq(
             # This is the default and can be omitted
@@ -36,13 +34,14 @@ def llm(prompt, model="groq"):
         )
         return chat_completion.choices[0].message.content
 
-    response = ollama.chat(model='llama3:latest', messages=[
-        {
-            'role': 'user',
-            'content': prompt,
-        },
-    ])
-    return response['message']['content']
+    # add other llm options here
+    # response = ollama.chat(model='llama3:latest', messages=[
+    #    {
+    #        'role': 'user',
+    #        'content': prompt,
+    #    },
+    #])
+    #return response['message']['content']
 
 # Create Streamlit app
 st.title("Rephrase Text for PDA-Friendly Communication")
