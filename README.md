@@ -9,7 +9,7 @@ Setup
 
 You need groq, dotenv and streamlit for python, so install it:
 ```sh
-$ pip install streamlit groq dotenv
+$ pip install streamlit groq python-dotenv
 ```
 
 Add your groq api key. Groq is very fast, and free at the time writing this.
