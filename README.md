@@ -7,8 +7,10 @@ This streamlit app helps you rephrase your language for effectively communicatin
 Setup
 ---
 
-You need streamlit, so install it:
-`pip install streamlit`
+You need groq and streamlit for python, so install it:
+```sh
+pip install streamlit groq
+```
 
 Add your groq api key. Groq is very fast, and free at the time writing this.
 `$ cp .env.template .env`
