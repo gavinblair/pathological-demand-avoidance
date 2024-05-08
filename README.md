@@ -7,12 +7,12 @@ This streamlit app helps you rephrase your language for effectively communicatin
 Setup
 ---
 
-You need groq, dotenv and streamlit for python, so install it:
+You need groq, dotenv and streamlit for python, so install them:
 ```sh
 $ pip install streamlit groq python-dotenv
 ```
 
-Add your groq api key. Groq is very fast, and free at the time writing this.
+Add your groq api key. Groq is very fast, and free at the time of writing this.
 ```sh
 $ cp .env.template .env
 $ vim .env
