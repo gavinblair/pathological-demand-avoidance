@@ -4,6 +4,8 @@ From https://www.autismbc.ca/blog/resource-guide/pathological-demand-avoidance-p
 
 This streamlit app helps you rephrase your language for effectively communicating with kids with PDA.
 
+The contents of instructions.txt are from Autism West Midlands https://autismwestmidlands.org.uk/
+
 Setup
 ---
 
