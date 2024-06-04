@@ -1,3 +1,5 @@
+![screenshot](screenshot.png)
+
 From https://www.autismbc.ca/blog/resource-guide/pathological-demand-avoidance-pda-explained/
 
 > Pathological Demand Avoidance (PDA) is an autistic profile. PDA individuals share autistic characteristics and also have many of the ‘key features’ of a PDA profile. It is most widely recognized in the UK. PDA is best explained as an extreme avoidance of everyday activities, refusal of demands and challenges with authority due to severe anxiety. In the United States and Canada, PDA is still emerging and not widely diagnosed by professionals due to lack of awareness.
